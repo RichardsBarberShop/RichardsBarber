@@ -1,0 +1,29 @@
+/* Estilos para el título */
+.titulo {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin: 20px 0; /* Margen superior e inferior de 20px */
+    background-color: black;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -10px; /* Reduzco el espacio superior a la mitad */
+    margin-bottom: -10px; /* Reduzco el espacio inferior a la mitad */
+  }
+  
+  /* Estilos para la galería */
+  .galeria {
+    background-color: black;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 0;
+  }
+  
+  .galeria img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
